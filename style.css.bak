@@ -1,0 +1,33 @@
+.flex-container {
+	display: flex;
+	
+ }
+ 
+ .grid-container{
+	display: grid;
+	
+ }
+
+.head {
+	position: absolute;
+	width: 1920px;
+	height: 183px;
+	left: 0px;
+	top: 0px;
+	background: #FF9900;
+
+	align-items: center;
+	justify-content: space-around;
+}
+
+.text {
+	position: absolute;
+	text-align: center;
+	left: 470px;
+	top: 230px;
+	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+}

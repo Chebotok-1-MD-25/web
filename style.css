@@ -1,0 +1,58 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.flex-container {
+	display: flex;
+	
+ }
+ 
+ .grid-container{
+	display: grid;
+	
+ }
+
+.head {
+	position: absolute;
+	width: 1920px;
+	height: 183px;
+	
+	background: #FF9900;
+
+	align-items: center;
+	justify-content: space-around;
+}
+
+.text {
+	position: absolute;
+	width: 924px;
+	height: 196px;
+	left: 334px;
+	top: 377px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.poisk {
+	box-sizing: border-box;
+	position: absolute;
+	width: 298px;
+	height: 43px;
+	background: rgba(255, 153, 0, 0.2);
+	border: 3px solid #000000;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+	position: absolute;
+	width: 1920px;
+	height: 183px;
+	
+	background: #FF9900;
+	align-items: center;
+	justify-content: space-around;
+}
